@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="title">Survey form</h1>
+    </div>
+
+    <div id="form">
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
+        <form action="" id="survey-form">
+            <div id="row-container">
+                <div id="col-container1"><label for="name" id="name-label">* Name:</label></div>
+                <div id="col-container2"><input type="text" id="name" class="textfield" placeholder="Enter your name" required></div>
+            </div>
+
+            <div id="row-container">
+                <div id="col-container1"><label for="email" id="email-label">* Email:</label></div>
+                <div id="col-container2"><input type="email" id="email" class="textfield"placeholder="Enter your email" required></div>
+            </div>
+
+            <div id="row-container">
+                <div id="col-container1"><label for="number" id="number-label">* Age:</label></div>
+                <div id="col-container2"><input type="number" name="Age" id="number" class="textfield"placeholder="Age" min="1" max="125"></div>
+            </div>
+
+
+            <div id="row-container">
+                <div id="col-container1"><label for="dropdown">Which option best describes your current role?</label>
+                </div>
+                <div id="col-container2">
+                    <select name="current-role" class="textfield"id="dropdown">
+                        <option value="student">Student</option>
+                        <option value="full time learner">Full time learner</option>
+                        <option value="full time job">Full time job</option>
+                        <option value="prefer not to say">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="row-container">
+                <div id="col-container1"><label for="">* How likely is that you would recommend freeCodeCamp to a friend?</label></div>
+
+                <div id="col-container2">
+                    <ul id="radio">
+                        <li><input type="radio" name="name" id="" value="0">Definetly</li>
+                        <li><input type="radio" name="name" id="" value="0">Maybe</li>
+                        <li><input type="radio" name="name" id="" value="0">Not Sure</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="row-container">
+                <div id="col-container1">
+                    <label for="">Things that should be improved in the future(Check all that apply):</label>
+                </div>
+
+                <div id="col-container2">
+                    <ul id="checkbox">
+                        <li><input type="checkbox" name="" id="" value="0">Front-end Projects</li>
+                        <li><input type="checkbox" name="" id="" value="0">Back-end Projects</li>
+                        <li><input type="checkbox" name="" id="" value="0">Data Visualization</li>
+                        <li><input type="checkbox" name="" id="" value="0">Challenges</li>
+                        <li><input type="checkbox" name="" id="" value="0">Open Source Community</li>
+                        <li><input type="checkbox" name="" id="" value="0">Gitter help rooms</li>
+                        <li><input type="checkbox" name="" id="" value="0">Videos</li>
+                        <li><input type="checkbox" name="" id="" value="0">City Meetups</li>
+                        <li><input type="checkbox" name="" id="" value="0">Wiki</li>
+                        <li><input type="checkbox" name="" id="" value="0">Forum</li>
+                        <li><input type="checkbox" name="" id="" value="0">dditional Courses</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="row-container">
+                <div id="col-container1"><label for="">Any Comments or Suggestions?</label></div>
+                <div id="col-container2"><textarea name="" id="" class="textfield" placeholder="Enter your text here..." cols="30" rows="5"></textarea></div>
+            </div>
+
+            <div id="row-container"><button type="submit" id="submit">Submit</button></div> 
+
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>
